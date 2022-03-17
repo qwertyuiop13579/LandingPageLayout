@@ -1,0 +1,110 @@
+.general {
+  padding: 0px 30px 60px 30px;
+  background-image: url(../img/general/car1.svg);
+  background-repeat: no-repeat;
+  background-position: 450px 0%;
+
+  // .general__content
+  &__content {
+    max-width: 492px;
+  }
+  // .general__weather
+  &__weather {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 25px;
+
+    // .general__weather-text
+    &-text {
+      font-family: "Open Sans";
+      font-weight: 300;
+      font-size: 16px;
+      line-height: calc(22 / 16) * 100%;
+      color: $secondary;
+      text-overflow: initial;
+    }
+
+    // .general__weather-time
+    &-time {
+      flex: 0 0 45%;
+    }
+
+    // .general__weather-conditions
+    &-conditions {
+      flex: 0 0 55%;
+    }
+
+    // .time-images
+    .time-images {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 8px;
+    }
+  }
+  // .general__title
+  &__title {
+    font-family: "Russo One";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: calc(63 / 64) * 100%;
+    color: $primary;
+    margin-bottom: 30px;
+  }
+
+  // .general__arrow
+  &__arrow {
+    display: flex;
+    max-height: 75px;
+
+    // .arrow
+    .arrow {
+      margin-top: -20px;
+    }
+  }
+
+  // .general__subtitle
+  &__subtitle {
+    font-family: "Russo One";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: calc(29 / 24) * 100%;
+    color: $secondary;
+    max-width: 280px;
+  }
+  // .general__btn
+  &__btn {
+    width: 395px;
+    height: 87px;
+    background: blue;
+    border-radius: 11px;
+    box-shadow: inset 0px 4px 12px rgba(0, 0, 0, 0.45);
+    border: 5px solid $primary;
+
+    font-family: "Russo One";
+    font-weight: 400;
+    font-size: 22px;
+    line-height: calc(27 / 22) * 100%;
+    color: $secondary;
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 45px;
+    margin-bottom: 15px;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  // .general__text
+  &__text {
+    max-width: 395px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: calc(22 / 16) * 100%;
+    color: $secondary;
+    text-align: center;
+  }
+}

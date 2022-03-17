@@ -274,6 +274,109 @@ select {
           text-decoration-line: underline;
 }
 
+.general {
+  padding: 0px 30px 60px 30px;
+  background-image: url(../img/general/car1.svg);
+  background-repeat: no-repeat;
+  background-position: 450px 0%;
+}
+
+.general__content {
+  max-width: 492px;
+}
+
+.general__weather {
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+
+.general__weather-text {
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 137.5%;
+  color: #F1F1F1;
+  text-overflow: initial;
+}
+
+.general__weather-time {
+  flex: 0 0 45%;
+}
+
+.general__weather-conditions {
+  flex: 0 0 55%;
+}
+
+.general__weather .time-images {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.general__title {
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 98.4375%;
+  color: #2194FF;
+  margin-bottom: 30px;
+}
+
+.general__arrow {
+  display: flex;
+  max-height: 75px;
+}
+
+.general__arrow .arrow {
+  margin-top: -20px;
+}
+
+.general__subtitle {
+  font-family: "Russo One";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120.8333333333%;
+  color: #F1F1F1;
+  max-width: 280px;
+}
+
+.general__btn {
+  width: 395px;
+  height: 87px;
+  background: blue;
+  border-radius: 11px;
+  box-shadow: inset 0px 4px 12px rgba(0, 0, 0, 0.45);
+  border: 5px solid #2194FF;
+  font-family: "Russo One";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 122.7272727273%;
+  color: #F1F1F1;
+  text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15px 45px;
+  margin-bottom: 15px;
+}
+
+.general__btn:hover {
+  transform: scale(1.05);
+}
+
+.general__text {
+  max-width: 395px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 137.5%;
+  color: #F1F1F1;
+  text-align: center;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;

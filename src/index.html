@@ -9,14 +9,64 @@
 <body>
     @@include('html/header.html')
     <main>
-
-        <div class="general">
+        <div class="general _container">
             <div class="general__content">
-                <div class="general__weather"></div>
-                <div class="general__title"></div>
-                <div class="general__subtitle"></div>
-                <div class="general__btn"></div>
-                <div class="general__text"></div>
+                <div class="general__weather">
+                    <div class="general__weather-time">
+                        <div class="time-images">
+                            <img src="img/general/moon.svg" alt="moon">
+                            <img src="img/general/arrow.svg" alt="arrow">
+                            <img src="img/general/sun.svg" alt="sun">
+                        </div>
+                        <div class="general__weather-text">В любое время дня и ночи</div>
+                    </div>
+                    <div class="general__weather-conditions">
+                        <div class="time-images">
+                            <img src="img/general/cloudy.svg" alt="cloudy">
+                            <img src="img/general/arrow.svg" alt="arrow">
+                            <img src="img/general/snowflake.svg" alt="snowflake">
+                        </div>
+                        <div class="general__weather-text">Вне зависимости от погодных условий</div>
+                    </div>
+                </div>
+                <div class="general__title">Доставим газ за 4 часа</div>
+                <div class="general__arrow">
+                    <div class="general__subtitle">в любую точку Москвы и Московской области</div>
+                    <div class="arrow"><img src="img/general/btn-arrow.svg" alt="arrow to btn"></div>
+                </div>
+
+                <div class="general__btn">Заказать доставку газа в газгольдер</div>
+                <div class="general__text">Доставка газа всегда по актуальным ценам</div>
+            </div>
+        </div>
+
+
+        <div class="prices">
+            <div class="prices__title">Стоимость газа в ваш газгольдер сегодня</div>
+            <div class="prices__subtitle">Идеальное соотношение</div>
+            <div class="prices__content">
+                <div class="prices__propan">
+                    <div class="prices__gas-name">Пропан</div>
+                    <div class="prices__gas-price">от 25 рублей за литр</div>
+                    <div class="prices__gas-description">Физически испарение происходит до -40 градусов, что позволяет
+                        использовать его в наших с вами погодных условиях</div>
+                    <div class="prices__btn">Заказать</div>
+                </div>
+                <div class="prices__ratio">
+                    <div class="prices__numbers">
+
+                    </div>
+                    <div class="prices__img">
+                        <img src="img/car2.svg" alt="car2">
+                    </div>
+                </div>
+                <div class="prices__butan">
+                    <div class="prices__gas-name">Бутан</div>
+                    <div class="prices__gas-price">от 16 рублей за литр</div>
+                    <div class="prices__gas-description">Испарение Бутана происходит только до 0 градусов и годится для
+                        использования в тёплое время года</div>
+                    <div class="prices__btn">Заказать</div>
+                </div>
             </div>
 
         </div>
