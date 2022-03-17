@@ -1,0 +1,128 @@
+.prices {
+  padding: 40px 0px;
+  background-color: rgba(33, 148, 255, 0.05);
+
+  // .prices__title
+  &__title {
+    font-family: "Russo One";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: calc(43 / 36) * 100%;
+    text-align: center;
+    color: $primary;
+    margin-bottom: 50px;
+  }
+
+  // .prices__subtitle
+  &__subtitle {
+    font-family: "Russo One";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: calc(24 / 20) * 100%;
+    color: $secondary;
+    opacity: 0.7;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  // .prices__content
+  &__content {
+    display: flex;
+  }
+
+  // .prices__gas
+  &__gas {
+    flex: 25%;
+    padding: 0px 10px;
+  }
+
+  // .prices__gas-name
+  &__gas-name {
+    font-family: "Russo One";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: calc(43 / 36) * 100%;
+    color: $secondary;
+  }
+
+  // .prices__gas-price
+  &__gas-price {
+    font-family: "Russo One";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: calc(29 / 24) * 100%;
+    color: $primary;
+    margin-bottom: 25px;
+  }
+
+  // .prices__gas-description
+  &__gas-description {
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: calc(22 / 16) * 100%;
+    color: $secondary;
+    margin-bottom: 30px;
+  }
+
+  // .prices__btn
+  &__btn {
+    width: 155px;
+    height: 43px;
+    background: $primary;
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(25 / 18) * 100%;
+    text-align: center;
+    color: $secondary;
+  }
+
+  // .prices__ratio
+  &__ratio {
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+  }
+
+  // .prices__numbers
+  &__numbers {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+
+  // .prices__ratio-name
+  &__ratio-name {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__separator {
+    height: 51px;
+    width: 2px;
+    background-color: rgba(241, 241, 241, 0.3);
+    margin: 0 20px;
+  }
+
+  &__num,
+  &__num-name {
+    font-family: "Russo One";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: rgba(241, 241, 241, 0.7);
+    text-align: center;
+  }
+
+  // .prices__img
+  &__img {
+    width: 100%;
+  }
+}
