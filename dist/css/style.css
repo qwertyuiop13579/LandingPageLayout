@@ -681,6 +681,137 @@ select {
   background: #2194FF;
 }
 
+.reviews {
+  padding: 10px 30px;
+}
+
+.reviews__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.reviews__title {
+  font-family: "Russo One";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 119.4444444444%;
+  text-align: center;
+  color: #F1F1F1;
+  margin-bottom: 30px;
+}
+
+.reviews__content {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+
+.reviews__arrow-back {
+  transform: rotate(180deg);
+}
+
+.reviews__arrow img:hover {
+  transform: scale(1.2);
+}
+
+.reviews__card {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.card {
+  display: none;
+  width: 759px;
+  height: 320px;
+  background: #F1F1F1;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  padding: 40px;
+  position: relative;
+}
+
+.card.visible {
+  display: flex;
+}
+
+.card-fake1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 839px;
+  height: 252px;
+  background: #F1F1F1;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+}
+
+.card-fake2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 799px;
+  height: 286px;
+  background: #F1F1F1;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+}
+
+.card__img {
+  flex: 30%;
+  width: 20px;
+  height: 240px;
+  margin-right: 20px;
+}
+
+.card__content {
+  flex: 70%;
+}
+
+.card__name {
+  font-family: "Russo One";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120.8333333333%;
+  color: #2194FF;
+}
+
+.card__city {
+  font-family: "Russo One";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 122.2222222222%;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.card__text {
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 137.5%;
+  color: #000;
+}
+
+.pagination {
+  display: flex;
+  gap: 5px;
+}
+
+.pagination__item {
+  width: 61px;
+  height: 18px;
+  background: rgba(241, 241, 241, 0.2);
+  border-radius: 20px;
+}
+
+.pagination__item.active {
+  background: #2194FF;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
