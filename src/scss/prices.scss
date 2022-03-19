@@ -82,6 +82,10 @@
     line-height: calc(25 / 18) * 100%;
     text-align: center;
     color: $secondary;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 
   // .prices__ratio

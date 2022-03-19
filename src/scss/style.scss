@@ -14,6 +14,7 @@
 @import "form.scss";
 @import "contacts.scss";
 @import "thanks.scss";
+@import "popup.scss";
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -67,8 +68,18 @@ body {
   align-items: center;
   text-align: center;
   padding: 15px 45px;
+  cursor: pointer;
 
   &:hover {
     transform: scale(1.05);
   }
+}
+
+.form-input {
+  background: #ffffff;
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 20px;
 }

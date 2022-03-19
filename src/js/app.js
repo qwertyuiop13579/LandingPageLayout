@@ -83,3 +83,46 @@ answersItems.forEach((item) => {
         }
     });
 });
+
+
+
+
+//####################################################################################3
+// Popup Block
+
+var generalBtn = document.querySelector(".general__btn");
+var pricesBtns = document.querySelectorAll(".prices__btn");
+var capacityBtn = document.querySelector(".capacity__btn");
+var contactsBtn = document.querySelector(".contacts__btn");
+var popupBtn = document.querySelector(".popup__btn");
+
+var popupEl = document.querySelector(".popup");
+
+function popUp() {
+    popupEl.classList.add('visible');
+    let body = document.querySelector('body');
+    body.style.overflow = "hidden";
+}
+
+generalBtn.addEventListener('click', popUp);
+pricesBtns.forEach((btn) => { btn.addEventListener('click', popUp); });
+capacityBtn.addEventListener('click', popUp);
+contactsBtn.addEventListener('click', popUp);
+
+popupBtn.addEventListener('click', function (event) {
+    // TODO: ADD logic to send info on server
+
+    let name = document.querySelector('.popup__name');
+    let phone = document.querySelector('.popup__phone');
+
+    setTimeout(() => {
+        popupEl.classList.remove('visible');
+        // alert(`Вы заказали доставку газа. Ваше имя: ${name.value}. Ваш телефон: ${phone.value}.`)
+        console.log(`You ordered gas. Your name: ${name.value}. Your phone: ${phone.value}.`)
+        name.value = "";
+        phone.value = "";
+        window.location.assign('../thanks.html');
+    }, 200);
+    event.preventDefault();
+})
+

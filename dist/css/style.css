@@ -216,15 +216,6 @@ select {
   transform: rotate(90deg);
 }
 
-.form-input {
-  background: #ffffff;
-  border: 1px solid #dedede;
-  box-sizing: border-box;
-  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-  padding: 20px;
-}
-
 .sponsors__items {
   display: flex;
   justify-content: center;
@@ -473,6 +464,11 @@ select {
   line-height: 138.8888888889%;
   text-align: center;
   color: #F1F1F1;
+  cursor: pointer;
+}
+
+.prices__btn:hover {
+  transform: scale(1.1);
 }
 
 .prices__ratio {
@@ -1081,6 +1077,81 @@ select {
   height: 87px;
 }
 
+.popup {
+  display: none;
+  width: 100%;
+  min-height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+}
+
+.popup.visible {
+  display: block;
+}
+
+.popup__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 462px;
+  height: 350px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 33px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.popup__title {
+  font-family: "Russo One";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120.8333333333%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #2194FF;
+  margin-bottom: 20px;
+}
+
+.popup__name {
+  width: 402px;
+  height: 51px;
+  margin-bottom: 20px;
+}
+
+.popup__phone {
+  width: 402px;
+  height: 51px;
+  margin-bottom: 20px;
+}
+
+.popup__btn {
+  width: 361px;
+  height: 87px;
+  margin-bottom: 20px;
+}
+
+.popup::after {
+  content: "Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с условиями политики конфиденциальности";
+  position: absolute;
+  max-width: 450px;
+  bottom: -50px;
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135.7142857143%;
+  text-align: center;
+  color: white;
+  opacity: 0.6;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1129,8 +1200,18 @@ body {
   align-items: center;
   text-align: center;
   padding: 15px 45px;
+  cursor: pointer;
 }
 
 .custom-btn:hover {
   transform: scale(1.05);
+}
+
+.form-input {
+  background: #ffffff;
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 20px;
 }
