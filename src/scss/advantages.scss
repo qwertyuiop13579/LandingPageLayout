@@ -1,0 +1,98 @@
+.advantages {
+  padding-top: 30px;
+
+  // .advantages__title
+  &__title {
+    font-family: "Russo One";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: calc(43 / 36) * 100%;
+    text-align: center;
+    color: $secondary;
+  }
+
+  // .advantages__table
+  &__table {
+    display: flex;
+    padding: 20px 10px 10px 10px;
+  }
+
+  // .advantages__column
+  &__column {
+    flex: 30%;
+  }
+
+  // .advantages__content
+  &__content {
+    display: flex;
+  }
+  // .advantages__image
+  &__image {
+    flex: 50%;
+  }
+  // .advantages__guarantee
+  &__guarantee {
+    flex: 50%;
+  }
+
+  // .advantages__text
+  &__text {
+    font-family: "Russo One";
+    font-weight: 400;
+    font-size: 35px;
+    line-height: calc(42 / 35) * 100%;
+    color: $secondary;
+    margin-bottom: 25px;
+  }
+  // .advantages__time
+  &__time {
+    color: $primary;
+  }
+  // .advantages__btn
+  &__btn {
+    width: 533px;
+    height: 35px;
+    background: $primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Open Sans";
+    font-weight: 800;
+    font-size: 14px;
+    line-height: calc(19 / 14) * 100%;
+    color: $secondary;
+  }
+}
+
+.cell {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px 30px 20px;
+  // .cell__img
+  &__img {
+    margin-bottom: 15px;
+  }
+  // .cell__title
+  &__title {
+    font-family: "Russo One";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: calc(29 / 24) * 100%;
+    text-align: center;
+    color: $primary;
+    margin-bottom: 25px;
+  }
+  // .cell__text
+  &__text {
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: calc(22 / 16) * 100%;
+    text-align: center;
+    color: $secondary;
+    margin-bottom: 25px;
+  }
+}

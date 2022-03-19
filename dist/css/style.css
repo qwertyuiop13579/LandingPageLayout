@@ -205,6 +205,17 @@ select {
   font-style: normal;
 }
 
+.arrow-container {
+  position: relative;
+}
+
+.arrow-img {
+  position: absolute;
+  left: 50%;
+  top: -35px;
+  transform: rotate(90deg);
+}
+
 .header {
   padding: 10px 30px;
 }
@@ -330,7 +341,7 @@ select {
   max-height: 75px;
 }
 
-.general__arrow .arrow {
+.general__arrow .arrow-image {
   margin-top: -20px;
 }
 
@@ -491,6 +502,99 @@ select {
 
 .prices__img {
   width: 100%;
+}
+
+.advantages {
+  padding-top: 30px;
+}
+
+.advantages__title {
+  font-family: "Russo One";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 119.4444444444%;
+  text-align: center;
+  color: #F1F1F1;
+}
+
+.advantages__table {
+  display: flex;
+  padding: 20px 10px 10px 10px;
+}
+
+.advantages__column {
+  flex: 30%;
+}
+
+.advantages__content {
+  display: flex;
+}
+
+.advantages__image {
+  flex: 50%;
+}
+
+.advantages__guarantee {
+  flex: 50%;
+}
+
+.advantages__text {
+  font-family: "Russo One";
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 120%;
+  color: #F1F1F1;
+  margin-bottom: 25px;
+}
+
+.advantages__time {
+  color: #2194FF;
+}
+
+.advantages__btn {
+  width: 533px;
+  height: 35px;
+  background: #2194FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans";
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 135.7142857143%;
+  color: #F1F1F1;
+}
+
+.cell {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px 30px 20px;
+}
+
+.cell__img {
+  margin-bottom: 15px;
+}
+
+.cell__title {
+  font-family: "Russo One";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120.8333333333%;
+  text-align: center;
+  color: #2194FF;
+  margin-bottom: 25px;
+}
+
+.cell__text {
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 137.5%;
+  text-align: center;
+  color: #F1F1F1;
+  margin-bottom: 25px;
 }
 
 body {

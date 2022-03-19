@@ -3,9 +3,11 @@
 @import "null.scss";
 @import "fonts";
 
+@import "main.scss";
 @import "header.scss";
 @import "general";
 @import "prices.scss";
+@import "advantages.scss";
 
 body {
   font-family: "Open Sans", sans-serif;

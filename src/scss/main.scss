@@ -1,0 +1,10 @@
+.arrow-container {
+  position: relative;
+}
+
+.arrow-img {
+  position: absolute;
+  left: 50%;
+  top: -35px;
+  transform: rotate(90deg);
+}
