@@ -1110,3 +1110,23 @@ body {
   max-width: 1140px;
   margin: 0 auto;
 }
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px 40px 30px;
+}
+
+.footer__text {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 135.7142857143%;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #F1F1F1;
+}
+
+.footer__text:hover {
+  color: #2194FF;
+}
