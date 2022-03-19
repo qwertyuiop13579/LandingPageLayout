@@ -384,26 +384,8 @@ select {
 .general__btn {
   width: 395px;
   height: 87px;
-  background: blue;
-  border-radius: 11px;
-  box-shadow: inset 0px 4px 12px rgba(0, 0, 0, 0.45);
-  border: 5px solid #2194FF;
-  font-family: "Russo One";
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 122.7272727273%;
-  color: #F1F1F1;
-  text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   padding: 15px 45px;
   margin-bottom: 15px;
-}
-
-.general__btn:hover {
-  transform: scale(1.05);
 }
 
 .general__text {
@@ -660,26 +642,7 @@ select {
 .capacity__btn {
   width: 295px;
   height: 87px;
-  background: blue;
-  border-radius: 11px;
-  box-shadow: inset 0px 4px 12px rgba(0, 0, 0, 0.45);
-  border: 5px solid #2194FF;
-  font-family: "Russo One";
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 120.8333333333%;
-  color: #F1F1F1;
-  text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   margin-top: -20px;
-  cursor: pointer;
-}
-
-.capacity__btn:hover {
-  transform: scale(1.1);
 }
 
 .btn-value {
@@ -1023,26 +986,7 @@ select {
 .contacts__btn {
   width: 295px;
   height: 87px;
-  background: blue;
-  border-radius: 11px;
-  box-shadow: inset 0px 4px 12px rgba(0, 0, 0, 0.45);
-  border: 5px solid #2194FF;
-  font-family: "Russo One";
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 120.8333333333%;
-  color: #F1F1F1;
-  text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  cursor: pointer;
   margin-bottom: 30px;
-}
-
-.contacts__btn:hover {
-  transform: scale(1.1);
 }
 
 .contacts__info {
@@ -1099,6 +1043,44 @@ select {
   letter-spacing: 0.05em;
 }
 
+.thanks__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thanks__title {
+  font-family: "Russo One";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120.8333333333%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #2194FF;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.thanks__subtitle {
+  max-width: 500px;
+  font-family: "Russo One";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120.8333333333%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #F1F1F1;
+  margin-bottom: 50px;
+}
+
+.thanks__btn {
+  width: 361px;
+  height: 87px;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1129,4 +1111,26 @@ body {
 
 .footer__text:hover {
   color: #2194FF;
+}
+
+.custom-btn {
+  background: blue;
+  border-radius: 11px;
+  box-shadow: inset 0px 4px 12px rgba(0, 0, 0, 0.45);
+  border: 5px solid #2194FF;
+  font-family: "Russo One";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 122.7272727273%;
+  color: #F1F1F1;
+  text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15px 45px;
+}
+
+.custom-btn:hover {
+  transform: scale(1.05);
 }
