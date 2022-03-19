@@ -121,7 +121,7 @@ popupBtn.addEventListener('click', function (event) {
         console.log(`You ordered gas. Your name: ${name.value}. Your phone: ${phone.value}.`)
         name.value = "";
         phone.value = "";
-        window.location.assign('../thanks.html');
+        window.location.assign('thanks.html');
     }, 200);
     event.preventDefault();
 })
