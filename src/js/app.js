@@ -61,3 +61,25 @@ arrowForward.addEventListener('click', function () {
     paginationItems[selectedReviewIndex].classList.add('active');
     cards[selectedReviewIndex].classList.add('visible');
 });
+
+
+
+
+
+//####################################################################################3
+// Answers Block
+
+var answersItems = document.querySelectorAll(".answers__item");
+
+answersItems.forEach((item) => {
+    item.addEventListener('click', function () {
+        if (item.classList.contains('active')) {
+            item.classList.remove('active');
+            item.children[0].children[0].children[0].src = "img/answers__arrow.svg";
+        }
+        else {
+            item.classList.add('active');
+            item.children[0].children[0].children[0].src = "img/answers__arrow-active.svg";
+        }
+    });
+});

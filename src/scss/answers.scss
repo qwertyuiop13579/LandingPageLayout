@@ -1,0 +1,59 @@
+.answers {
+  background-color: rgba(33, 148, 255, 0.05);
+  padding: 30px;
+  // .answers__title
+  &__title {
+    font-family: "Russo One";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: calc(43 / 36) * 100%;
+    text-align: center;
+    color: $primary;
+    margin-bottom: 20px;
+  }
+  // .answers__item
+  &__item {
+    // height: 70px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px 40px;
+  }
+  // .answers__item-title
+  &__item-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    // margin-bottom: 10px;
+  }
+  // .answers__arrow
+  &__arrow {
+    margin-right: 20px;
+  }
+  // .answers__name
+  &__name {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(22 / 16) * 100%;
+    text-transform: uppercase;
+    color: $secondary;
+  }
+  // .answers__text
+  &__text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: calc(22 / 16) * 100%;
+    color: $secondary;
+    display: none;
+    margin-top: 10px;
+  }
+}
+
+.answers__item.active .answers__name {
+  color: $primary;
+}
+
+.answers__item.active .answers__text {
+  display: block;
+}

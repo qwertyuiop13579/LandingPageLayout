@@ -682,7 +682,7 @@ select {
 }
 
 .reviews {
-  padding: 10px 30px;
+  padding: 10px 30px 30px 30px;
 }
 
 .reviews__container {
@@ -810,6 +810,64 @@ select {
 
 .pagination__item.active {
   background: #2194FF;
+}
+
+.answers {
+  background-color: rgba(33, 148, 255, 0.05);
+  padding: 30px;
+}
+
+.answers__title {
+  font-family: "Russo One";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 119.4444444444%;
+  text-align: center;
+  color: #2194FF;
+  margin-bottom: 20px;
+}
+
+.answers__item {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px 40px;
+}
+
+.answers__item-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.answers__arrow {
+  margin-right: 20px;
+}
+
+.answers__name {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 137.5%;
+  text-transform: uppercase;
+  color: #F1F1F1;
+}
+
+.answers__text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 137.5%;
+  color: #F1F1F1;
+  display: none;
+  margin-top: 10px;
+}
+
+.answers__item.active .answers__name {
+  color: #2194FF;
+}
+
+.answers__item.active .answers__text {
+  display: block;
 }
 
 body {
