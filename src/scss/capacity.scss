@@ -1,0 +1,88 @@
+.capacity {
+  padding: 40px 0px;
+  background-color: rgba(33, 148, 255, 0.05);
+
+  // .capacity__container
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  // .capacity__title
+  &__title {
+    font-family: "Russo One";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: calc(43 / 36) * 100%;
+    text-align: center;
+    color: $primary;
+    margin-bottom: 40px;
+  }
+
+  // .capacity__btns
+  &__btns {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 15px;
+  }
+
+  // .capacity__img
+  &__img {
+    height: 270px;
+  }
+
+  // .capacity__btn
+  &__btn {
+    width: 295px;
+    height: 87px;
+    background: blue;
+    border-radius: 11px;
+    box-shadow: inset 0px 4px 12px rgba(0, 0, 0, 0.45);
+    border: 5px solid $primary;
+
+    font-family: "Russo One";
+    font-weight: 400;
+    font-size: 22px;
+    line-height: calc(29 / 24) * 100%;
+    color: $secondary;
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -20px;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.btn-value {
+  width: 164px;
+  height: 64px;
+  background: rgba(241, 241, 241, 0.2);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Russo One";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: calc(22 / 18) * 100%;
+  text-align: center;
+  color: $secondary;
+
+  padding: 10px 20px;
+  cursor: pointer;
+  &:hover {
+    background: #045db1;
+  }
+  &.active {
+    background: $primary;
+  }
+}
