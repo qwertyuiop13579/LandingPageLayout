@@ -217,12 +217,30 @@ select {
 }
 
 .form-input {
-  background: #FFFFFF;
-  border: 1px solid #DEDEDE;
+  background: #ffffff;
+  border: 1px solid #dedede;
   box-sizing: border-box;
   box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   padding: 20px;
+}
+
+.sponsors__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.sponsors__item {
+  width: 166px;
+  height: 66px;
+  background-color: #F1F1F1;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header {
@@ -978,6 +996,107 @@ select {
   font-size: 16px;
   line-height: 137.5%;
   color: #F1F1F1;
+}
+
+.contacts {
+  padding: 30px;
+}
+
+.contacts__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts__title {
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 119.4444444444%;
+  text-align: center;
+  color: #2194FF;
+  margin-bottom: 10px;
+  max-width: 700px;
+}
+
+.contacts__btn {
+  width: 295px;
+  height: 87px;
+  background: blue;
+  border-radius: 11px;
+  box-shadow: inset 0px 4px 12px rgba(0, 0, 0, 0.45);
+  border: 5px solid #2194FF;
+  font-family: "Russo One";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 120.8333333333%;
+  color: #F1F1F1;
+  text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.contacts__btn:hover {
+  transform: scale(1.1);
+}
+
+.contacts__info {
+  height: 488px;
+  background: #F1F1F1;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 33px;
+  display: flex;
+}
+
+.contacts__address {
+  flex: 50%;
+  padding: 40px;
+}
+
+.contacts__map {
+  flex: 50%;
+}
+
+.address__title {
+  font-family: "Russo One";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 119.4444444444%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #2194FF;
+  margin-bottom: 10px;
+}
+
+.address__text {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 138.8888888889%;
+  color: #1b2639;
+  margin-bottom: 30px;
+}
+
+.address__subtitle {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 138.8888888889%;
+  text-transform: uppercase;
+  color: #2194FF;
+  margin-bottom: 5px;
+}
+
+.address .address__text:nth-child(2) {
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(27, 38, 57, 0.2);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 body {

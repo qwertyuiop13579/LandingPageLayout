@@ -9,12 +9,40 @@
   transform: rotate(90deg);
 }
 
-
-.form-input{
-  background: #FFFFFF;
-  border: 1px solid #DEDEDE;
+.form-input {
+  background: #ffffff;
+  border: 1px solid #dedede;
   box-sizing: border-box;
   box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   padding: 20px;
+}
+
+// ##############################################################################################
+// Sponsors Block
+
+.sponsors {
+  // .sponsors__container
+  &__container {
+  }
+
+  // .sponsors__items
+  &__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  // .sponsors__item
+  &__item {
+    width: 166px;
+    height: 66px;
+    background-color: $secondary;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

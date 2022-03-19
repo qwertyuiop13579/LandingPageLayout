@@ -1,0 +1,111 @@
+.contacts {
+  padding: 30px;
+  // .contacts__container
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  // .contacts__title
+  &__title {
+    font-family: "Russo One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: calc(43 / 36) * 100%;
+    text-align: center;
+    color: $primary;
+    margin-bottom: 10px;
+    max-width: 700px;
+  }
+
+  // .contacts__btn
+  &__btn {
+    width: 295px;
+    height: 87px;
+    background: blue;
+    border-radius: 11px;
+    box-shadow: inset 0px 4px 12px rgba(0, 0, 0, 0.45);
+    border: 5px solid $primary;
+
+    font-family: "Russo One";
+    font-weight: 400;
+    font-size: 22px;
+    line-height: calc(29 / 24) * 100%;
+    color: $secondary;
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 30px;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  // .contacts__info
+  &__info {
+    height: 488px;
+    background: $secondary;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
+    display: flex;
+  }
+
+  // .contacts__address
+  &__address {
+    flex: 50%;
+    padding: 40px;
+  }
+
+  // .contacts__map
+  &__map {
+    flex: 50%;
+  }
+}
+
+.address {
+  // .address__title
+  &__title {
+    font-family: "Russo One";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: calc(43 / 36) * 100%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: $primary;
+    margin-bottom: 10px;
+  }
+
+  // .address__text
+  &__text {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(25 / 18) * 100%;
+    color: #1b2639;
+    margin-bottom: 30px;
+  }
+
+  // .address__subtitle
+  &__subtitle {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(25 / 18) * 100%;
+    text-transform: uppercase;
+    color: $primary;
+    margin-bottom: 5px;
+  }
+}
+
+.address .address__text:nth-child(2) {
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(27, 38, 57, 0.2);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
