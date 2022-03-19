@@ -216,6 +216,15 @@ select {
   transform: rotate(90deg);
 }
 
+.form-input {
+  background: #FFFFFF;
+  border: 1px solid #DEDEDE;
+  box-sizing: border-box;
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 20px;
+}
+
 .header {
   padding: 10px 30px;
 }
@@ -868,6 +877,107 @@ select {
 
 .answers__item.active .answers__text {
   display: block;
+}
+
+.form {
+  padding: 40px;
+}
+
+.form__container {
+  display: flex;
+  gap: 20px;
+}
+
+.form__content {
+  flex: 50%;
+  padding: 20px;
+}
+
+.form__title {
+  font-family: "Russo One";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 119.4444444444%;
+  color: #F1F1F1;
+  margin-bottom: 40px;
+}
+
+.form__name {
+  width: 402px;
+  height: 51px;
+  margin-bottom: 20px;
+}
+
+.form__phone {
+  width: 402px;
+  height: 51px;
+  margin-bottom: 20px;
+}
+
+.form__question {
+  width: 402px;
+  height: 112px;
+  margin-bottom: 30px;
+}
+
+.form__btn {
+  width: 220px;
+  height: 47px;
+  background: #2194FF;
+  border-radius: 50px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 138.8888888889%;
+  text-align: center;
+  color: #F1F1F1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.form__btn:hover {
+  transform: scale(1.1);
+}
+
+.form__image {
+  position: relative;
+}
+
+.form__info {
+  position: absolute;
+  top: 70%;
+  left: -10%;
+}
+
+.info {
+  width: 209px;
+  height: 83px;
+  background: #2194FF;
+  opacity: 0.8;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.info__name {
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120.8333333333%;
+  color: #F1F1F1;
+}
+
+.info__position {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 137.5%;
+  color: #F1F1F1;
 }
 
 body {

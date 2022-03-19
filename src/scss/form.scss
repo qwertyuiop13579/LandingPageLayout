@@ -1,0 +1,113 @@
+.form {
+  padding: 40px;
+  // .form__container
+  &__container {
+    display: flex;
+    gap: 20px;
+  }
+
+  // .form__content
+  &__content {
+    flex: 50%;
+    padding: 20px;
+  }
+
+  // .form__title
+  &__title {
+    font-family: "Russo One";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: calc(43 / 36) * 100%;
+    color: $secondary;
+    margin-bottom: 40px;
+  }
+
+  // .form__name
+  &__name {
+    width: 402px;
+    height: 51px;
+    margin-bottom: 20px;
+  }
+
+  // .form__phone
+  &__phone {
+    width: 402px;
+    height: 51px;
+    margin-bottom: 20px;
+  }
+
+  // .form__question
+  &__question {
+    width: 402px;
+    height: 112px;
+    margin-bottom: 30px;
+  }
+
+  // .form__btn
+  &__btn {
+    width: 220px;
+    height: 47px;
+    background: $primary;
+    border-radius: 50px;
+
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(25 / 18) * 100%;
+    text-align: center;
+    color: $secondary;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  // .form__image
+  &__image {
+    position: relative;
+  }
+
+  // .form__info
+  &__info {
+    position: absolute;
+    top: 70%;
+    left: -10%;
+  }
+}
+
+.info {
+  width: 209px;
+  height: 83px;
+  background: $primary;
+  opacity: 0.8;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  //   align-items: center;
+  padding: 20px;
+
+  // .info__name
+  &__name {
+    font-family: "Russo One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: calc(29 / 24) * 100%;
+    color: $secondary;
+  }
+
+  // .info__position
+  &__position {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: calc(22 / 16) * 100%;
+    color: $secondary;
+  }
+}
